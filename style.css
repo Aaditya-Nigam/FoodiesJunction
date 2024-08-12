@@ -67,20 +67,39 @@ body{
 }
 
 .dessert_card .img_container .add_to_cart{
-    display: flex;
     background-color: white;
-    padding: 0.4rem 0.8rem;
     border-radius: 2rem;
     border: 2px solid var(--primary-color);
     position: absolute;
     bottom: 0;
     transform: translateY(50%);
+    gap: 4px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.dessert_card .img_container .add_to_cart .add{
+    display: flex;
+    padding: 0.4rem 0.8rem;
     font-size: 0.8rem;
     align-items: center;
-    gap: 4px;
+    gap: 8px;
     color: var(--text-color);
     font-weight: 600;
     cursor: pointer;
+}
+
+.dessert_card .img_container .add_to_cart .added{
+    display: flex;
+    padding: 0.4rem 0.8rem;
+    font-size: 0.8rem;
+    align-items: center;
+    gap: 2rem;
+    color: white;
+    background-color: var(--primary-color);
+    font-weight: 600;
+    cursor: pointer;
+    display: none;
 }
 
 .dessert_card .dessert_details{
