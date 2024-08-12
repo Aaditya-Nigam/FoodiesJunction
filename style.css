@@ -247,3 +247,115 @@ body{
     margin-top: 1rem;
     cursor: pointer;
 }
+
+.order_confirmed_container{
+    background-color: rgba(185, 179, 179, 0.505);
+    height: 100vh;
+    width: 98.9vw;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+}
+
+.order_confirmed_container .card{
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.order_confirmed_container .card .order_status .heading_name{
+    font-size: 2rem;
+    color: var(--text-color);
+}
+
+.order_confirmed_container .card .order_status p{
+    font-size: 1.2rem;
+    padding-bottom: 1.5rem;
+}
+
+.order_confirmed_container .card .items{
+    background-color: var(--background-color);
+    padding: 0 1rem;
+    border-radius: 8px;
+}
+
+.order_confirmed_container .card .items .item_card{
+    padding: 1rem 0;
+    display: flex;
+    gap: 1rem;
+    border-bottom: 1px solid rgba(166, 162, 162, 0.248);
+}
+
+.order_confirmed_container .card .items .item_card .img{
+    height: 2.5rem;
+}
+
+.order_confirmed_container .card .items .item_card img{
+    height: 100%;
+    border-radius: 4px;
+}
+
+.order_confirmed_container .card .items .item_card .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--text-color);
+    gap: 5rem;
+}
+
+.order_confirmed_container .card .items .item_card .info .heading_name{
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.order_confirmed_container .card .items .item_card .info .other_detail{
+    display: flex;
+    gap: 2rem;
+}
+
+.order_confirmed_container .card .items .item_card .info .other_detail .quantity{
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.order_confirmed_container .card .items .item_card .info .other_detail .price{
+    color: var(--text-secondary-color);
+}
+
+.order_confirmed_container .card .items .item_card .info .total_price{
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.order_confirmed_container .card .items .order_total_container{
+    padding: 1.3rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order_confirmed_container .card .items .order_total_container .heading_name{
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.order_confirmed_container .card .items .order_total_container .order_total{
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: var(--text-color);
+}
+
+.order_confirmed_container .card .new_order_container{
+    background-color: var(--primary-color);
+    margin-top: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.25rem;
+    color: white;
+    font-weight: 700;
+    border-radius: 2rem;
+}

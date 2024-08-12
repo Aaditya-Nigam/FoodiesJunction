@@ -13,8 +13,15 @@ fetch("./data.json")
                         <div class="img_container">
                             <img src="${element.image.desktop}" alt="sweet">
                             <div class="add_to_cart">
-                                <img src="assets/images/icon-add-to-cart.svg" alt="cart">
-                                <p>Add to Cart</p>
+                                <div class="add">
+                                    <img src="assets/images/icon-add-to-cart.svg" alt="cart">
+                                    <p>Add to Cart</p>
+                                </div>
+                                <div class="added">
+                                    <img src="assets/images/icon-increment-quantity.svg" alt="plus">
+                                    <p>1</p>
+                                    <img src="assets/images/icon-decrement-quantity.svg" alt="minus">
+                                </div>
                             </div>
                         </div>
                         <div class="dessert_details">
