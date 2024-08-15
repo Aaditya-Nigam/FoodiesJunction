@@ -94,7 +94,7 @@ body{
     padding: 0.4rem 0.8rem;
     font-size: 0.8rem;
     align-items: center;
-    gap: 2rem;
+    gap: 1.5rem;
     color: white;
     background-color: var(--primary-color);
     font-weight: 600;
@@ -145,12 +145,12 @@ body{
 
 .cart_container .empty_card{
     width: 100%;
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
     padding: 1rem 0;
-    display: none;
+    /* display: none; */
 }
 
 .cart_container .empty_card p{
@@ -263,6 +263,17 @@ body{
     background-color: white;
     padding: 2rem;
     border-radius: 1rem;
+}
+
+.order_confirmed_container .card .tick_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.order_confirmed_container .card .tick_container .cancel{
+    height: 1rem;
+    cursor: pointer;
 }
 
 .order_confirmed_container .card .order_status .heading_name{
